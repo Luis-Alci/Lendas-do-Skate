@@ -208,6 +208,6 @@ footer {
     transform: scale(1.02);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   }
-  .resultado-pesquisa {
-    visibility: hidden;
+.resultado-pesquisa {
+    display: none;
 }
