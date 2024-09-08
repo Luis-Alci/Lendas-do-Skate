@@ -1,4 +1,4 @@
-## **README.md: Lendas do Skate**
+## **README.md: Lendas do Skate - Imersão Dev com Google Gemini **
 
 ### **Sobre o Projeto**
 
