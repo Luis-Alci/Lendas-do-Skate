@@ -7,6 +7,7 @@ function pesquisar() {
     for (let dado of dados) {
         if (dado.nome.toLowerCase().includes(campoPesquisa)) {
             encontrouResultado = true;
+            section.style.display = "block";
             resultadoPesquisa += `
                 <h2>${dado.nome}</h2>
                 <p><strong>Descrição:</strong> ${dado.descricao}</p>
@@ -20,7 +21,9 @@ function pesquisar() {
             resultadoPesquisa = "<p>Skatista não encontrado!</p>";
     }
     section.innerHTML = resultadoPesquisa;
+    
 }
 }  
    
+  
   
