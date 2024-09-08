@@ -179,7 +179,6 @@ footer {
     font-family: "Chakra Petch", sans-serif;
     color: #031220;
     display: flex;
-
     justify-content: center;
     align-items: center;
   }
@@ -209,3 +208,6 @@ footer {
     transform: scale(1.02);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   }
+  .resultado-pesquisa {
+    visibility: hidden;
+}
